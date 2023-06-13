@@ -1,0 +1,9 @@
+1.copy hosts and ssh-keys
+
+2. copy yum repo
+
+3. run install
+
+4. use jinja for config
+
+5. use handlers  for start/restart
