@@ -1,0 +1,10 @@
+---
+  - name: clean all rancher nodes
+    hosts:  [ranchernodes]
+    become: true
+
+
+    tasks:
+     - name: execute 
+
+       command: sh /root/clean.sh
