@@ -1,0 +1,9 @@
+---
+ - name: bootstrap-rancher
+   hosts: [rancher-master]
+   become: true
+
+  roles:
+    - cleanall
+    - rancher
+

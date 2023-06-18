@@ -24,9 +24,7 @@
 #192.168.12.171 #rancher-worker-2
 #192.168.12.100 #rancher-worker-3
 
-[primarynode]
-
-
+[rancher-master]
 192.168.12.111  #rancher-1
 [ranchernodes:vars]
 ansible_user="root"
