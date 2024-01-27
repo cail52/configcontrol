@@ -1,8 +1,0 @@
----
-- name: “the usual"
-  hosts: localhost
-
-  tasks:
-  - name: print hello world
-    debug: msg="Hello there"
-

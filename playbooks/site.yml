@@ -1,9 +1,0 @@
----
- - name: master playbook
-   hosts: cassandranodes
-   become: true
-
-
-   roles:
-     - pkgs
-
